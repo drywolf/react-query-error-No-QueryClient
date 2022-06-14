@@ -18,6 +18,15 @@ mkdir my-lib && cd my-lib && pnpm init
 
 * add `pnpm-workspace.yaml` and run `pnpm install` in root directory
 
+* `cd vite-app`
+* `pnpm dev` ... react-query works ok in browser ✅
+    * see http://localhost:3000/
+* `pnpm build && pnpm preview` ... react-query fails with error in browser ⛔
+    * see http://localhost:4173/
+
+*Note:*
+If you uncomment the line `const data = useData_inViteApp();` in `App.tsx` instead of the original one, then `pnpm build && pnpm preview` works without error. It seems that the error happens only if the hook function is put into another module that is linked via pnpm workspace.
+
 **Used software:**
 ```
 node --version
