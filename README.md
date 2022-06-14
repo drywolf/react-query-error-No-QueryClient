@@ -16,6 +16,8 @@ mkdir my-lib && cd my-lib && pnpm init
 * add / replace code in vite-app
 * add dependencies to vite-app/package.json
 
+* add `pnpm-workspace.yaml` and run `pnpm install` in root directory
+
 **Used software:**
 ```
 node --version
