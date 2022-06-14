@@ -10,6 +10,7 @@
 pnpm create vite vite-app --template react-ts
 mkdir my-lib && cd my-lib && pnpm init
 ```
+* add index.ts code to my-lib
 
 **Used software:**
 ```
