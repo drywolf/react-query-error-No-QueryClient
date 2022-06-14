@@ -14,6 +14,8 @@ mkdir my-lib && cd my-lib && pnpm init
 * add dependencies to my-lib/package.json
 
 * add / replace code in vite-app
+* add dependencies to vite-app/package.json
+
 **Used software:**
 ```
 node --version
