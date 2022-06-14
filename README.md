@@ -35,6 +35,9 @@ Node v16.14.0
 pnpm --version
 7.2.1
 
+tsc --version
+Version 4.7.3
+
 Operating System:
 Windows 10 Pro 21H1
 Build 19043.1706
