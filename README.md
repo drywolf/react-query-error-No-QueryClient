@@ -13,6 +13,7 @@ mkdir my-lib && cd my-lib && pnpm init
 * add index.ts code to my-lib
 * add dependencies to my-lib/package.json
 
+* add / replace code in vite-app
 **Used software:**
 ```
 node --version
